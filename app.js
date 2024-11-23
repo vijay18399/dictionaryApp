@@ -13,7 +13,7 @@ app.use(logger);
 
 // Root Route
 app.get('/', (req, res) => {
-    res.send('Dictionary API');
+    res.json({ message: 'Dictionary API is up and running' });
 });
 
 // Dictionary Routes
